@@ -1,21 +1,5 @@
 ### This is the note sharing website which is build upon the django framework 
 
-### Room Home page
-![note_share website](https://github.com/shrimon347/share-me-note/blob/master/room.PNG?raw=true)
-### Room page
-![note_share website](https://github.com/shrimon347/share-me-note/blob/master/inner_room.PNG?raw=true)
-### upload a note
-![note_share website](https://github.com/shrimon347/share-me-note/blob/master/update_note.PNG?raw=true)
-### My note page
-![note_share website](https://github.com/shrimon347/share-me-note/blob/master/my_note.PNG?raw=true)
-### User profile page
-![note_share website](https://github.com/shrimon347/share-me-note/blob/master/user_profile.PNG?raw=true)
-
-
-
-
-{% if False %}
-
 # Introduction
 
 This is the project of my 5th semester of my university. In this project we can share our note with my friends and other any part of the world here we include the room system and included real chat system .
@@ -65,8 +49,11 @@ Installing inside virtualenv is recommended, however you can start your project 
 
 If you don't have django installed for python 3 then run:
 
-    $ pip3 install django
-    
+    $ pip install django
+if you don't have a virtualenv then follow the steps
+    $ pip install pipenv
+ And then:
+    $ pipenv install django 
 And then:
 
     $ python3 -m django studybudy \
@@ -77,7 +64,6 @@ And then:
       
 After that just install the local dependencies, run migrations, and start the server.
 
-{% endif %}
 
 # {{ project_name|title }}
 
@@ -105,5 +91,16 @@ You can now run the development server:
     $ python manage.py runserver
 
 
+
+### Room Home page
+![note_share website](https://github.com/shrimon347/share-me-note/blob/master/room.PNG?raw=true)
+### Room page
+![note_share website](https://github.com/shrimon347/share-me-note/blob/master/inner_room.PNG?raw=true)
+### upload a note
+![note_share website](https://github.com/shrimon347/share-me-note/blob/master/update_note.PNG?raw=true)
+### My note page
+![note_share website](https://github.com/shrimon347/share-me-note/blob/master/my_note.PNG?raw=true)
+### User profile page
+![note_share website](https://github.com/shrimon347/share-me-note/blob/master/user_profile.PNG?raw=true)
 
 🙏 If you find this repo helpful then don't forget to give a start ❇️ to this repository. :)
