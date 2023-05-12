@@ -51,11 +51,15 @@ If you don't have django installed for python 3 then run:
 
     $ pip install django
 if you don't have a virtualenv then follow the steps
+
     $ pip install pipenv
  And then:
+ 
     $ pipenv install django
  And then activate the virtualenv as follows :
+ 
     $ pipenv shell
+    
 And then:
 
     $ python3 -m django studybudy \
